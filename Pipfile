@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-opencv-python = "~=4.8.0"
+opencv-python-headless = "*"
 easyocr = "~=1.7.0"
 requests = "~=2.31.0"
 python-dotenv = "~=1.0.0"

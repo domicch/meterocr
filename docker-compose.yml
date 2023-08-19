@@ -1,0 +1,11 @@
+version: '3.6'
+
+services:
+  ocr:
+    build: .
+    working_dir: /app/
+    volumes:
+      - ./:/app
+    env_file:
+      - .env
+    command: python main.py

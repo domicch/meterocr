@@ -1,5 +1,5 @@
 .env
-.jpg
+*.jpg
 log.csv
 resource/cookies.json
 
