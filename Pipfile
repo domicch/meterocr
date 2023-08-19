@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "~=4.8.0"
+easyocr = "~=1.7.0"
+requests = "~=2.31.0"
+python-dotenv = "~=1.0.0"
+pillow = "9.5.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
